@@ -1,6 +1,6 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import Routes from "./src/route"; // Certifique-se de importar o componente Routes corretamente
+import Routes from "./src/routes"; // Certifique-se de importar o componente Routes corretamente
 
 export default function App() {
   return (

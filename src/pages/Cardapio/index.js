@@ -3,9 +3,8 @@ import { StyleSheet, Text, View } from "react-native";
 
 export default function Cardapio() {
     return(
-        <View style={StyleSheet.container}>
-            <Text style={style.Text}>PAGINA Notificação</Text>
-        
+        <View style={styles.container}>
+            <Text style={styles.text}>PÁGINA Cardápio</Text>
         </View>
     )
 }
@@ -16,11 +15,10 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         alignItems: 'center',
         justifyContent: 'center',
-        borderBlockColor: 'green',
-
+        borderColor: 'green', // Corrigido de 'borderBlockColor' para 'borderColor'
     },
-     text:{
+    text: {
         fontSize: 25,
         fontWeight: 'bold'
-     }
+    }
 })
